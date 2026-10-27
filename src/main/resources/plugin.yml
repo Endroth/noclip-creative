@@ -1,0 +1,14 @@
+name: CreativeNoclip
+version: '1.0.0'
+main: br.creative.noclip.CreativeNoclip
+api-version: '26.3'
+description: Comando /nc on e /nc off para modo de voo Creative.
+commands:
+  nc:
+    description: Ativa ou desativa o modo Creative Noclip
+    usage: /nc <on|off>
+    permission: creativenoclip.use
+permissions:
+  creativenoclip.use:
+    description: Permite usar /nc
+    default: op
